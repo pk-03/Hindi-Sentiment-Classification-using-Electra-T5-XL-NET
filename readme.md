@@ -6,15 +6,15 @@ This repository contains code and configuration for fine-tuning multiple transfo
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Models Used](#models-used)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Inference](#inference)
-- [Results](#results)
-- [License](#license)
+- [Overview](#-overview)
+- [Models Used](#-models-used)
+- [Dataset](#-dataset)
+- [Installation](#-installation)
+- [Training](#-training)
+- [Evaluation](#-evaluation)
+- [Inference](#-inference)
+- [Results](#-results)
+- [License](#-license)
 
 ---
 
@@ -95,10 +95,19 @@ print(classify_text(sample_text, tokenizer, model, label_mapping, device))
 
 ## 📊 Results (Sample)
 
-Model	Accuracy	F1 Score	Precision	Recall
-ELECTRA	0.86	0.85	0.86	0.85
-T5	0.83	0.82	0.83	0.82
-XLNet	0.81	0.80	0.81	0.80
+Electra    
+
+### Results comparision of the given model on Product reveiws dataset
+|Model|Accuracy|F1 Score|Precision|Recall|
+|ELECTRA|	0.4231|	0.2515|	0.179	|0.4231|
+|T5|	0.694|	0.705 |	0.743	|0.694|
+|XLNet|	0.4796|	0.3877|	0.5158	|0.4796|
+
+### Results comparision of the given model on Movies reveiws dataset
+|Model|Accuracy|F1 Score|Precision|Recall|
+|ELECTRA|	0.49|	0.45|	0.50	|0.4993|
+|T5|	0.6706|	0.668|	0.6747	|0.67|
+|XLNet|	0.41|	0.24|	0.18	|0.41|
 
 Note: Results will vary based on dataset and hyperparameters.
 
