@@ -99,6 +99,7 @@ Electra
 
 ### Results comparision of the given model on Product reveiws dataset
 |Model|Accuracy|F1 Score|Precision|Recall|
+|-----|--------|--------|---------|-------|
 |ELECTRA|	0.4231|	0.2515|	0.179	|0.4231|
 |T5|	0.694|	0.705 |	0.743	|0.694|
 |XLNet|	0.4796|	0.3877|	0.5158	|0.4796|
