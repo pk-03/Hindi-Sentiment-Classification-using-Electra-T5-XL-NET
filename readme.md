@@ -105,6 +105,7 @@ Electra
 
 ### Results comparision of the given model on Movies reveiws dataset
 |Model|Accuracy|F1 Score|Precision|Recall|
+|-----|--------|--------|---------|-------|
 |ELECTRA|	0.49|	0.45|	0.50	|0.4993|
 |T5|	0.6706|	0.668|	0.6747	|0.67|
 |XLNet|	0.41|	0.24|	0.18	|0.41|
